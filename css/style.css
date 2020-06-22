@@ -43,6 +43,7 @@
     width: 18vw;
     height: 5vw;
     color:#D7D4FF;
+    outline:none;
 }
 .btn:hover{
     background-color:#7B74E5;
