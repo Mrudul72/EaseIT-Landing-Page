@@ -18,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     padding:1% 2% 2% 3% ;
-    padding-top: 1.2vw;   
+    padding-top: 1.3vw;  
 
 }
 .navbar img{
@@ -59,6 +59,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100%;
+    padding-top: 1.75vw;
 }
 .heading{
     font-size:2.5vw;
@@ -67,7 +68,7 @@
     text-transform: uppercase;
 }
 .description{
-    font-size:1.75vw;
+    font-size:1.3vw;
     color:#7B74E5;
     font-weight:lighter;
 }
@@ -114,7 +115,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vh;
+    height: 3.5vw;
     margin-top: 2%;
     margin-bottom: 0px;
     padding-left: 3%;
@@ -132,5 +133,5 @@
     cursor: pointer;
 }
 .social-icons img{
-    width:5vh; 
+    width:2vw; 
 }
