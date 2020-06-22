@@ -18,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     padding:1% 2% 2% 3% ;
+    padding-top: 1.2vw;   
 
 }
 .navbar img{
@@ -32,7 +33,6 @@
 }
 .navbar li{
     padding-left: 3vw;
-    padding-top: 1vw;
     font-size: 1.3vw;
     color: #7B74E5;
 }
@@ -45,6 +45,7 @@
     height: 4vw;
     color:#D7D4FF;
     outline: none;
+    transition: ease-in-out 0.3s;
     
 }
 .btn:hover{
@@ -60,7 +61,7 @@
     width: 100%;
 }
 .heading{
-    font-size:3vw;
+    font-size:2.5vw;
     color: #34006D;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -79,10 +80,10 @@
 }
 .content-right1 img{
     width: 95%;
-    padding-right: 1%;
+    padding-right: 3%;
 }
 .main-h1{
-    font-size:4vw;
+    font-size:3.75vw;
     color: #34006D;
     margin-bottom: 4%;
     padding-left: 12%;
@@ -98,6 +99,7 @@
     align-content: center;
     padding-bottom: 20%;
     padding-left: 15%;
+    padding-right: 10%;
 }
 
 .content-left3{
