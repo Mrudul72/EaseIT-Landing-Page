@@ -91,7 +91,7 @@ body{
     width: 100%;
 }
 .mobile-img img{
-    width: 60%;
+    width: 70%;
 }
 .content-left1,.content-right1{
     display: flex;
@@ -181,13 +181,13 @@ body{
     
     .heading{
         text-align: center;
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .description{
         padding: 0;
         margin-bottom: 3%;
         text-align: center;
-        font-size: 3vw;
+        font-size: 4vw;
         padding: 5% 20%;
         
     }
