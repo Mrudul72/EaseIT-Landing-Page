@@ -64,7 +64,7 @@ body{
     width: 30px;
     height: 4px;
     margin: 5px;
-    border-radius: 20px;
+    border-radius: 5px;
     background-color: #34006D;
     transition:all ease 0.5s;
 }
@@ -85,6 +85,13 @@ body{
     font-size:1.3vw;
     color:#7B74E5;
     font-weight:lighter;
+}
+.mobile-img{
+    display: none;
+    width: 100%;
+}
+.mobile-img img{
+    width: 60%;
 }
 .content-left1,.content-right1{
     display: flex;
@@ -157,11 +164,68 @@ body{
         z-index: 2;
         
     }
-    .content-container{
+    .content-container .content-left2,.content-right3,.content-right1{
         display: none;
     }
+    .content-container{
+        grid-template-columns: 1fr;
+    }
+    .content-container .content-left3,.content-right2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        width: 100%;
+    }
+    
+    .heading{
+        text-align: center;
+        font-size: 4vw;
+    }
+    .description{
+        padding: 0;
+        margin-bottom: 3%;
+        text-align: center;
+        font-size: 3vw;
+        padding: 5% 20%;
+        
+    }
+    .main-h1{
+        padding-left: 0;
+        text-align: center;
+        width: 80%;
+        font-size: 1.5rem;
+    }
+    .mobile-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4% 0px;
+    }
+    .content-left1 .btn{
+        width: 170px;
+        height: 45px;
+        font-size: 15px;
+    }
     .footer{
-        display: none;
+        height: 10vw;
+        margin-top: 2%;
+        margin-bottom: 0px;
+        padding-left: 3%;
+        padding-right: 2%;
+        background-color:rgba(123,116,229,0.5);
+        color: #34006D;
+        font-size: 2.2vw;
+    }
+    .social-icons{
+        display: flex;
+        width: 20%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .social-icons img{
+        width:4vw; 
     }
     .navbar img{
         padding: 3%;
@@ -187,9 +251,8 @@ body{
     .nav-links li{
         padding:5%;
         font-size: large;
-        opacity: 0;
     }
-    .btn{
+    .nav-links .btn{
         width: 170px;
         height: 45px;
         font-size: large;
@@ -214,13 +277,3 @@ body{
       transform: rotate(45deg) translate(-7px,-6px);
   }
 }
-  @keyframes navLinkFade{
-    from{
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-  }
