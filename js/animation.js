@@ -7,7 +7,7 @@ const navSlide = () => {
   for (eachLi of navLinks) {
     eachLi.addEventListener("click", () => {
       nav.classList.toggle("nav-active");
-      nav_btn.classList.toggle(`toggle`);
+      burger.classList.toggle(`toggle`);
     });
   }
 
