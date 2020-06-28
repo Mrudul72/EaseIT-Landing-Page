@@ -129,8 +129,12 @@ body{
     padding-top: 20%;
 }
 .content-right3 img{
-    width: 95%;
-    padding-right: 30px;
+    width: 80%; 
+}
+.content-right3{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 .footer{
     display: flex;
