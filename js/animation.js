@@ -25,4 +25,5 @@ const navSlide = () => {
       false
     );
   });
+};
 navSlide();
